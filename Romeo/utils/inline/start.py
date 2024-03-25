@@ -50,7 +50,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
             InlineKeyboardButton(
                 text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
-            ),
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text="𝐘𝐨𝐮𝐫",
                 url=f"httpst.me/BWF_MUSIC1",
