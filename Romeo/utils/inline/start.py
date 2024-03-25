@@ -56,7 +56,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="🔥 ᴏᴡɴᴇʀ 🔥",
-                url=f"https://t.me/SHAYRI_CHANNEL1"
+                url=config.OWNER_ID"
             )
         ],
         [
