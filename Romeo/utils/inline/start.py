@@ -56,13 +56,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="🔥 ᴏᴡɴᴇʀ 🔥",
-                url=config.OWNER_ID
+                url=f"https://t.me/SHAYRI_CHANNEL1"
             )
         ],
         [
             InlineKeyboardButton(
                 text="🇮🇳 ʟᴀɴɢᴜᴀɢᴇ 🏳️‍🌈",
-                url=f"https://t.me/SHAYRI_CHANNEL1"
+                callback_data="LG
             )
         ]
      ]
