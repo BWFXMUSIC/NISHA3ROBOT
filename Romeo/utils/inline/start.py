@@ -62,7 +62,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="🇮🇳 ʟᴀɴɢᴜᴀɢᴇ 🏳️‍🌈",
-                callback_data="LG
+                callback_data="LG"
             )
         ]
      ]
