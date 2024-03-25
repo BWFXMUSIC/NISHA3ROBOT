@@ -42,32 +42,34 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="▷",
+                text="",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Resume|{chat_id}"
+                text="", callback_data=f"ADMIN Resume|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
