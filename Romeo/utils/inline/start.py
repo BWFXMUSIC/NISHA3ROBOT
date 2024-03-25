@@ -35,34 +35,34 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
+                text="🔎 ʜᴇʟᴩ 🔎",
                 callback_data="settings_back_helper",
             )
         ],
         [
             InlineKeyboardButton(
-                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_GROUP
+                text="📨 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
+                text="📨 sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             )
         ],
         [
             InlineKeyboardButton(
-                text="➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕",
+                text="⛩️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩️",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="😁",
+                text="🔥 ᴏᴡɴᴇʀ 🔥",
                 url=f"https://t.me/L2R_KING0"
             )
         ],
         [
             InlineKeyboardButton(
-                text="😜😜😜",
-                url=f"https://t.me/BWF_MUSIC1"
+                text="🇮🇳 ʟᴀɴɢᴜᴀɢᴇ 🏳️‍🌈",
+                url=f"https://t.me/SHAYRI_CHANNEL1"
             )
         ]
      ]
