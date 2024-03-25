@@ -125,17 +125,19 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -160,17 +162,19 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -195,17 +199,19 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -356,17 +362,19 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -391,17 +399,19 @@ def telegram_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
