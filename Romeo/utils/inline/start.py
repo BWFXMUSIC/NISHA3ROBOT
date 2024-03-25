@@ -56,21 +56,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     if GITHUB_REPO and OWNER:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_7"], url=config.OWNER_ID
-                InlineKeyboardButton(text=_["S_B_6"], url=config.UPSTREAM_REPO
+                InlineKeyboardButton(text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", user_id=config.OWNER_ID),
+                InlineKeyboardButton(text="💝𝐉𝙰𝙰𝙽💝", user_id=5493923823),
             ]
         )
     else:
         if GITHUB_REPO:
             buttons.append(
                 [
-                    InlineKeyboardButton(text=_["S_B_6"], url=config.GITHUB_REPO
+                    InlineKeyboardButton(text="💝𝐉𝙰𝙰𝙽💝", user_id=5493923823),
                 ]
             )
         if OWNER:
             buttons.append(
                 [
-                    InlineKeyboardButton(text=_["S_B_7"], url=config.OWNER_ID
+                    InlineKeyboardButton(text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", user_id=config.OWNER_ID),
                 ]
             )
     buttons.append([InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")])
