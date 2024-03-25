@@ -41,11 +41,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="settings_back_helper"
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
@@ -54,8 +49,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝐘𝐨𝐮𝐫",
-                url=f"httpst.me/BWF_MUSIC1",
+                text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
+                callback_data="settings_back_helper"
             )
         ],
         [
