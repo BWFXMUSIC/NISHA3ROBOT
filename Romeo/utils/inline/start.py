@@ -57,6 +57,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="𝐘𝐨𝐮𝐫",
                 url=f"httpst.me/BWF_MUSIC1",
             )
+        ],
+        [
+            InlineKeyboardButton(
+                text="😁",
+                url=f"httpst.me/BWF_MUSIC1",
+            )
         ]
      ]
     return buttons
