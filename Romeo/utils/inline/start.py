@@ -1,11 +1,10 @@
 
 from typing import Union
 
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
+import config
 from Romeo import app
-
 
 def start_pannel(_):
     buttons = [
