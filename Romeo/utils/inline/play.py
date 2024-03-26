@@ -13,25 +13,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     Romeo = math.floor(percentage)
     if 0 < Romeo <= 10:
-        bar = "•A⚚‎ᴎ•▇▇▇▇▇▇▇▇▇"
+        bar = "•▁▄▂▇▄▅▄▅▃•"
     elif 10 < Romeo < 20:
-        bar = "▇•A⚚‎ᴎ•▇▇▇▇▇▇▇▇"
+        bar = "•▁▃▇▂▅▇▄▅▃•"
     elif 20 <= Romeo < 30:
-        bar = "▇▇•A⚚‎ᴎ•▇▇▇▇▇▇▇"
+        bar = "•▃▁▇▂▅▃▄▃▅•"
     elif 30 <= Romeo < 40:
-        bar = "▇▇▇•A⚚‎ᴎ•▇▇▇▇▇▇"
+        bar = "•▃▄▂▄▇▅▃▅▁•"
     elif 40 <= Romeo < 50:
-        bar = "▇▇▇▇•A⚚‎ᴎ•▇▇▇▇▇"
+        bar = "•▁▃▄▂▇▃▄▅▃•"
     elif 50 <= Romeo < 60:
-        bar = "▇▇▇▇▇•A⚚‎ᴎ•▇▇▇▇"
+        bar = "▃▁▄▂▅▃▇▃▅"
     elif 60 <= Romeo < 70:
-        bar = "▇▇▇▇▇▇•A⚚‎ᴎ•▇▇▇"
+        bar = "▁▇▄▂▅▄▅▃▄"
     elif 70 <= Romeo < 80:
-        bar = "▇▇▇▇▇▇▇•A⚚‎ᴎ•▇▇"
+        bar = "▁▃▅▇▂▅▄▃▇"
     elif 80 <= Romeo < 95:
-        bar = "▇▇▇▇▇▇▇▇•A⚚‎ᴎ•▇"
+        bar = "▅▄▇▂▅▂▄▇▁"
     else:
-        bar = "▇▇▇▇▇▇▇▇▇•A⚚‎ᴎ•"
+        bar = "▃▅▂▅▃▇▄▅▃"
 
     buttons = [
         [
