@@ -66,25 +66,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     Romeo = math.floor(percentage)
     if 0 < Romeo <= 10:
-        bar = "NJ▇▇▇▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 10 < Romeo < 20:
-        bar = "▇NJ▇▇▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 20 <= Romeo < 30:
-        bar = "▇▇NJ▇▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 30 <= Romeo < 40:
-        bar = "▇▇▇NJ▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 40 <= Romeo < 50:
-        bar = "▇▇▇▇NJ▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 50 <= Romeo < 60:
-        bar = "▇▇▇▇▇NJ▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 60 <= Romeo < 70:
-        bar = "▇▇▇▇▇▇NJ▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 70 <= Romeo < 80:
-        bar = "▇▇▇▇▇▇▇NJ▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 80 <= Romeo < 95:
-        bar = "▇▇▇▇▇▇▇▇NJ▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     else:
-        bar = "▇▇▇▇▇▇▇▇▇NJ"
+        bar = "▇▇▇▇▇▇▇▇▇"
 
     buttons = [
         [
