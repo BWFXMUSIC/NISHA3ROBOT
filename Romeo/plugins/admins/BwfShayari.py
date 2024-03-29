@@ -112,7 +112,7 @@ BWF_TAG = [
         ]
 
 
-@app.on_message(filters.command(["Shayaritag", "Loveitag", "Pyartag", "shaaditag", ], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["Shayaritag", "Lovetag", "Pyartag", "shaaditag", ], prefixes=["/", "@", "#"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
