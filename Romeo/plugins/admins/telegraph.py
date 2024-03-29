@@ -12,10 +12,4 @@ def ul(_, message):
         path = reply.download()
         fk = upload_file(path)
         for x in fk:
-            url = "https://telegra.ph" + x
-
-        i.edit(f' ༄𝐿 2 𝙍.🖤🜲𝐊𝐈𝐍𝐆❦︎ 𝆺𝅥⃝🍷 
-
-👤 𝐁σт ᴏᴡɴᴇʀ🍷 𝐔ʀ 𝐈d 💖 
-
- 🤭 @L2R_KING0 💝  {url}')
+            url = "https://telegra.ph" + xi.edit(f'   {url}')
