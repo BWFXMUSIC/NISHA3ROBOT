@@ -3,7 +3,7 @@ from pyrogram import filters
 from Romeo import app
 
 
-@app.on_message(filters.command('Bwf'))
+@app.on_message(filters.command('tgm'))
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
@@ -11,6 +11,6 @@ def ul(_, message):
         path = reply.download()
         fk = upload_file(path)
         for x in fk:
-            url = "https://telegra.ph Link" + x
+            url = "https://telegra.ph"
 
-        i.edit(f'🇾ᴏᴜʀ🇹ᴇʟᴇɢʀᴀᴘʜ 👉 {url}')
+        i.edit(f'🇾ᴏᴜʀ🇹ᴇʟᴇɢʀᴀᴘʜ 👉 {Link}')
