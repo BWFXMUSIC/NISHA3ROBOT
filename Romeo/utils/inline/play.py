@@ -94,8 +94,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-        ],
-        [
             InlineKeyboardButton(
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
@@ -134,11 +132,11 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text="gh",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
+                text="fi", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
@@ -169,11 +167,11 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text="to",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
+                text="AshishMusic2", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
@@ -330,11 +328,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text="xxxx",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
+                text="xxxx", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
@@ -365,11 +363,11 @@ def telegram_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text="zzzzz",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"{config.SUPPORT_GROUP}"
+                text="zzzzzz", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
