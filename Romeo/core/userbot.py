@@ -20,7 +20,7 @@ class Userbot(Client):
             no_updates=True,
         )
         self.two = Client(
-            name="AshishMusic2",
+            name="RomeoMusic2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
