@@ -28,4 +28,3 @@ youtube-search
 youtube-search-python
 yt-dlp
 telegraph
-unidecode
