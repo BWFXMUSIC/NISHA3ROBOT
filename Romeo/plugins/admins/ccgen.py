@@ -2,7 +2,6 @@ from SafoneAPI import SafoneAPI
 from Romeo import app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-api = SafoneAPI()
 
 
 @app.on_message(filters.command(["gen", "ccgen"], [".", "!", "/"]))
