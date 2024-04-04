@@ -4,6 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 api = SafoneAPI()
 
+
 @app.on_message(filters.command(["gen", "ccgen"], [".", "!", "/"]))
 async def gen_cc(client, message):
     if len(message.command) < 2:
