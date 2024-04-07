@@ -55,7 +55,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(6052880487)
+OWNER_ID.append(5820831398)
 ############################
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
