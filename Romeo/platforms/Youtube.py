@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from Romeo.utils.database import is_on_off
-from Romeo.utils.formatters import time_to_seconds
+from AshishX.utils.database import is_on_off
+from AshishX.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
@@ -31,7 +31,7 @@ class YouTubeAPI:
     def __init__(self):
         self.base = "https://www.youtube.com/watch?v="
         self.regex = r"(?:youtube\.com|youtu\.be)"
-        self.status = "https://www.youtube.com/oembed?url="
+        self.status = "https://www.youtube.com/oembed.url="
         self.listbase = "https://youtube.com/playlist?list="
         self.reg = re.compile(r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])")
 
@@ -82,7 +82,7 @@ class YouTubeAPI:
                 duration_sec = 0
             else:
                 duration_sec = int(time_to_seconds(duration_min))
-        return title, duration_min, duration_sec, thumbnail, vidid
+            return title, duration_min, duration_sec, thumbnail, vidid
 
     async def title(self, link: str, videoid: Union[bool, str] = None):
         if videoid:
