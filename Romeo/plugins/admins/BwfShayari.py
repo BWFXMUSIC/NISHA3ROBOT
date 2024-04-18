@@ -112,7 +112,7 @@ BWF_TAG = [
         ]
 
 
-@app.on_message(filters.command(["Shayaritag", "Lovetag", "Pyartag", "shaaditag", ], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["Shayaritag", "Lovetag", "Pyartag", "shaaditag", "tagall", "all", ], prefixes=["/", "@", "#"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -217,7 +217,7 @@ async def mention_allvc(client, message):
 
 
 
-@app.on_message(filters.command(["cancel", "offtag", "Shayariofftag", "lovetag", "stop"]))
+@app.on_message(filters.command(["cancel", "offtag", "Shayariofftag", "lovetag", "off", "offtag", "stop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐈'𝐦 𝐍𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠 𝐁𝐚𝐛𝐲.")
