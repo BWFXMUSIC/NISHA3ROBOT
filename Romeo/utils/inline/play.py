@@ -23,15 +23,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 40 <= Romeo < 50:
         bar = "•▁▃▄▂▇▃▄▅▃•"
     elif 50 <= Romeo < 60:
-        bar = "▃▁▄▂▅▃▇▃▅"
+        bar = "•▃▁▄▂▅▃▇▃▅•"
     elif 60 <= Romeo < 70:
-        bar = "▁▇▄▂▅▄▅▃▄"
+        bar = "•▁▇▄▂▅▄▅▃▄•"
     elif 70 <= Romeo < 80:
-        bar = "▁▃▅▇▂▅▄▃▇"
+        bar = "•▁▃▅▇▂▅▄▃▇•"
     elif 80 <= Romeo < 95:
-        bar = "▅▄▇▂▅▂▄▇▁"
+        bar = "•▅▄▇▂▅▂▄▇▁•"
     else:
-        bar = "▃▅▂▅▃▇▄▅▃"
+        bar = "•▃▅▂▅▃▇▄▅▃•"
 
     buttons = [
         [
@@ -46,7 +46,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/II_ASHISH_GUPTA_IIl"
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
             ),
         ],
         [
@@ -99,7 +99,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/II_ASHISH_GUPTA_IIl"
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
             ),
         ],
         [
@@ -136,7 +136,7 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/II_ASHISH_GUPTA_IIl"
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
             ),
         ],
         [
